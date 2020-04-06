@@ -1,22 +1,21 @@
 public class Application {
 
     /**
-    @author Pedro Henrique, 2020.
+     * @author Pedro Henrique, 2020.
      */
 
     public static void main(String[] args) {
 /*
                DEFINE O TOKEN
  */
-        final String token = "A1BC";
+        final String token = "100.00";
 
  /*
-            REALIZA AS VALIDACOES
+            REALIZA AS VALIDAÇÕES
  */
-       new ValidadorDeToken().validador(token);
+        new ValidadorDeToken().validador(token);
 
     }
-
 
 
 }

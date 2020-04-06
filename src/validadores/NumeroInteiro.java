@@ -8,19 +8,18 @@ public class NumeroInteiro implements Validador {
 
         if (token.startsWith("-") && token.substring(1).matches("[0-9]([0-9])*")) {
 
-            System.out.println(token + " É do tipo numero inteiro \n");
+            System.out.println(token + " É do tipo número inteiro \n");
             return true;
-        }
-        else if(token.startsWith("+") && token.substring(1).matches("[0-9]([0-9])*") ) {
-            System.out.println(token + " É do tipo numero inteiro \n");
+        } else if (token.startsWith("+") && token.substring(1).matches("[0-9]([0-9])*")) {
+            System.out.println(token + " É do tipo número inteiro \n");
             return true;
 
-        }else  if (token.matches("[0-9]([0-9])*")){
-            System.out.println(token + " É do tipo numero inteiro\n");
+        } else if (token.matches("[0-9]([0-9])*")) {
+            System.out.println(token + " É do tipo número inteiro\n");
             return true;
-        }else{
+        } else {
             System.out.println(token + " Não é do tipo numero inteiro\n");
-            return  false;
+            return false;
         }
 
     }
