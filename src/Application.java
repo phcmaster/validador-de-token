@@ -6,7 +6,7 @@ public class Application {
 
     public static void main(String[] args) {
 /*
-               DIFINE O TOKEN
+               DEFINE O TOKEN
  */
         final String token = "A1BC";
 
