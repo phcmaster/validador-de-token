@@ -18,7 +18,7 @@ public class NumeroInteiro implements Validador {
             System.out.println(token + " É do tipo número inteiro\n");
             return true;
         } else {
-            System.out.println(token + " Não é do tipo numero inteiro\n");
+            System.out.println(token + " Não é do tipo número inteiro\n");
             return false;
         }
 
